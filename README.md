@@ -1,159 +1,248 @@
 <div align="center">
 
-# 🌐 Web Development Technologies
+# `WEB.DEV`
 
-### Building the Web — One Concept at a Time.
+### Web Development Technologies
 
-<p>
-  <b>HTML</b> •
-  <b>CSS</b> •
-  <b>JavaScript</b> •
-  <b>DOM</b> •
-  <b>Responsive Design</b> •
-  <b>Web Fundamentals</b>
-</p>
-
-<p>
-  A structured collection of concepts, examples, experiments, and practical implementations
-  covering the core technologies behind modern web development.
-</p>
+**A practical journey through the technologies that power the modern web.**
 
 <br>
 
-<a href="#-about-the-repository">About</a> •
-<a href="#-technologies">Technologies</a> •
-<a href="#-repository-structure">Structure</a> •
-<a href="#-what-youll-find">Topics</a> •
-<a href="#-getting-started">Getting Started</a>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+
+<br><br>
+
+[**Explore Repository**](#-repository-overview)
+&nbsp;&nbsp;•&nbsp;&nbsp;
+[**Technologies**](#-technology-stack)
+&nbsp;&nbsp;•&nbsp;&nbsp;
+[**Projects**](#-projects)
+&nbsp;&nbsp;•&nbsp;&nbsp;
+[**Roadmap**](#-learning-roadmap)
 
 </div>
 
 ---
 
-## 📌 About the Repository
+## `01` — Repository Overview
 
-**Web Development Technologies** is a hands-on repository for learning, practicing, and revisiting the core concepts used to build modern websites and web applications.
+**Web Development Technologies** is a structured, hands-on repository covering the fundamental technologies used to build modern websites and web applications.
 
-The repository focuses on understanding how the web works at a fundamental level — from structuring content with **HTML**, styling interfaces with **CSS**, to adding interactivity and application logic using **JavaScript**.
+The repository brings together **HTML, CSS, JavaScript, DOM manipulation, responsive design, browser APIs, and practical projects** in one place.
 
-Rather than being limited to theoretical notes, the repository emphasizes **working examples and practical implementations** that can be experimented with directly in a browser.
+Rather than treating web development as a collection of isolated syntaxes, the goal is to understand how these technologies work together:
 
-> **Learn → Build → Experiment → Understand → Improve**
+```text
+┌──────────────────────────────────────────────────────────────┐
+│                       WEB APPLICATION                        │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│    HTML              CSS                 JavaScript           │
+│     │                 │                      │               │
+│     ▼                 ▼                      ▼               │
+│  Structure          Design               Behaviour           │
+│     │                 │                      │               │
+│     └─────────────────┼──────────────────────┘               │
+│                       ▼                                      │
+│                 Browser / DOM                                │
+│                       │                                      │
+│                       ▼                                      │
+│                Interactive UI                                │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+```
+
+### Core Philosophy
+
+> **Understand the fundamentals → experiment with them → combine them → build something useful.**
 
 ---
 
-## 🧩 Technologies
+# `02` — Technology Stack
 
 <div align="center">
 
-| Technology | Purpose |
-|:---:|:---|
-| 🟠 **HTML5** | Structure and semantics of web pages |
-| 🔵 **CSS3** | Styling, layouts, animations and responsive interfaces |
-| 🟡 **JavaScript** | Programming logic and web interactivity |
-| 🌐 **DOM** | Dynamic manipulation of web pages |
-| 📱 **Responsive Design** | Building interfaces for different screen sizes |
-| 🧰 **Browser APIs** | Working with browser-provided functionality |
-| 🔧 **Git & GitHub** | Version control and project management |
+| Layer | Technology | Role |
+|:---:|:---:|:---|
+| 🧱 | **HTML5** | Structure & semantics |
+| 🎨 | **CSS3** | Styling & layout |
+| ⚡ | **JavaScript** | Logic & interactivity |
+| 🌐 | **DOM** | Dynamic webpage manipulation |
+| 📱 | **Responsive Design** | Multi-device interfaces |
+| 🔌 | **Web APIs** | Browser capabilities & external data |
+| 🔧 | **Git** | Version control |
+| ☁️ | **GitHub** | Collaboration & repository management |
 
 </div>
 
 ---
 
-## 📚 What You'll Find
+# `03` — HTML5
 
-### 🏗️ HTML
+### Structure is the foundation.
 
-Fundamentals of building the structure of a web page.
+HTML defines the structure and meaning of a web page.
 
-- HTML document structure
-- Semantic HTML
-- Headings and paragraphs
-- Links and navigation
-- Images and multimedia
-- Lists
-- Tables
-- Forms and input elements
-- Attributes
-- HTML5 semantic elements
-- Accessibility fundamentals
+### Topics
 
----
+```text
+HTML
+├── Document Structure
+├── Elements & Attributes
+├── Headings & Paragraphs
+├── Links & Navigation
+├── Images & Multimedia
+├── Lists
+├── Tables
+├── Forms
+├── Input Elements
+├── Semantic HTML
+├── Accessibility
+└── HTML5 Features
+```
 
-### 🎨 CSS
+### Focus
 
-Creating visually structured and responsive interfaces.
-
-- Selectors
-- Colors and typography
-- Box model
-- Display properties
-- Positioning
-- Flexbox
-- CSS Grid
-- Responsive layouts
-- Media queries
-- Transitions
-- Animations
-- Pseudo-classes
-- Pseudo-elements
-- CSS variables
-- Component-oriented styling
+- Semantic markup
+- Clean document structure
+- Forms and validation
+- Accessible HTML
+- Meaningful element selection
+- Multimedia integration
 
 ---
 
-### ⚡ JavaScript
+# `04` — CSS3
 
-Adding logic, behavior, and interactivity to web pages.
+### Design is more than appearance.
 
-- Variables and data types
-- Operators
-- Conditional statements
-- Loops
-- Functions
-- Arrays
-- Objects
-- Strings
-- Scope
-- DOM manipulation
-- Event handling
-- Form handling
-- Error handling
-- ES6+ features
-- Modules
-- Asynchronous JavaScript
-- Promises
-- `async/await`
-- Fetch API
+CSS controls how structured content is presented, positioned, animated, and adapted across different devices.
+
+### Topics
+
+```text
+CSS
+├── Selectors
+├── Specificity
+├── Box Model
+├── Colors & Typography
+├── Display
+├── Positioning
+├── Flexbox
+├── CSS Grid
+├── Responsive Design
+├── Media Queries
+├── Transitions
+├── Animations
+├── Pseudo Classes
+├── Pseudo Elements
+└── CSS Variables
+```
+
+### Layout Systems
+
+```text
+                 CSS LAYOUT
+                     │
+           ┌─────────┴─────────┐
+           │                   │
+        Flexbox               Grid
+           │                   │
+     1-dimensional       2-dimensional
+           │                   │
+           └─────────┬─────────┘
+                     │
+                     ▼
+             Responsive UI
+```
 
 ---
 
-### 🌐 DOM & Browser Interaction
+# `05` — JavaScript
 
-Understanding how JavaScript communicates with the webpage.
+### Make the interface think.
+
+JavaScript introduces programming logic, dynamic behaviour, user interaction, asynchronous operations, and communication with external services.
+
+### Core Concepts
+
+```text
+JavaScript
+├── Variables
+├── Data Types
+├── Operators
+├── Conditions
+├── Loops
+├── Functions
+├── Scope
+├── Arrays
+├── Objects
+├── Strings
+├── Error Handling
+├── ES6+
+├── DOM
+├── Events
+├── Forms
+├── Promises
+├── async / await
+├── Fetch API
+└── Modules
+```
+
+---
+
+# `06` — DOM & Browser APIs
+
+One of the most important transitions in frontend development is understanding how JavaScript interacts with the browser.
+
+```text
+        JavaScript
+             │
+             ▼
+          Browser
+             │
+             ▼
+            DOM
+             │
+     ┌───────┼────────┐
+     ▼       ▼        ▼
+  Select   Modify   Listen
+ Elements  Content  Events
+     │       │        │
+     └───────┼────────┘
+             ▼
+       Dynamic Website
+```
+
+### Practical Concepts
 
 - Selecting elements
 - Creating elements
-- Modifying content
-- Changing styles
-- Handling events
+- Removing elements
+- Updating content
+- Modifying styles
+- Event listeners
 - Event propagation
-- Form validation
-- Dynamic UI updates
-- Browser storage
-- Working with browser APIs
+- Form handling
+- Client-side validation
+- Local Storage
+- Session Storage
+- Fetch API
+- Browser APIs
 
 ---
 
-## 📂 Repository Structure
-
-The repository is organized by technology and concept so that individual topics can be studied independently.
+# `07` — Repository Structure
 
 ```text
 web-development-technologies/
 │
 ├── HTML/
 │   ├── basics/
+│   ├── elements/
 │   ├── forms/
 │   ├── tables/
 │   ├── semantic-html/
@@ -185,253 +274,254 @@ web-development-technologies/
 └── README.md
 ```
 
-> The structure may evolve as new technologies, concepts, and projects are added.
+The structure is intentionally organized by **technology → concept → implementation**, making the repository useful both for learning and future reference.
 
 ---
 
-## 🚀 Getting Started
+# `08` — Projects
 
-Most examples in this repository can be executed directly in a modern web browser.
+The concepts explored throughout the repository are gradually combined into practical applications.
 
-### 1. Clone the repository
+### Project Categories
 
-```bash
-git clone https://github.com/<your-username>/web-development-technologies.git
+| Category | Examples |
+|:---|:---|
+| 🧩 UI Components | Navigation bars, cards, forms, modals |
+| 📱 Responsive UI | Landing pages, dashboards |
+| ⚡ JavaScript | Interactive utilities and applications |
+| 🌐 API Integration | Applications consuming external APIs |
+| 💾 Browser Storage | Local/session storage applications |
+| 🛠️ Mini Projects | Small end-to-end web applications |
+
+### Project Philosophy
+
+Each project should demonstrate at least one practical concept rather than simply reproducing a tutorial.
+
+```text
+Concept
+   ↓
+Small Example
+   ↓
+Experiment
+   ↓
+Combine Concepts
+   ↓
+Mini Project
+   ↓
+Larger Application
 ```
 
-### 2. Open the project
+---
+
+# `09` — Learning Roadmap
+
+```text
+                         WEB DEVELOPMENT
+                                │
+                                ▼
+                        ┌───────────────┐
+                        │     HTML      │
+                        └───────┬───────┘
+                                │
+                                ▼
+                        ┌───────────────┐
+                        │      CSS      │
+                        └───────┬───────┘
+                                │
+                                ▼
+                        ┌───────────────┐
+                        │  JavaScript   │
+                        └───────┬───────┘
+                                │
+                                ▼
+                        ┌───────────────┐
+                        │      DOM      │
+                        └───────┬───────┘
+                                │
+                                ▼
+                        ┌───────────────┐
+                        │  Browser APIs │
+                        └───────┬───────┘
+                                │
+                                ▼
+                        ┌───────────────┐
+                        │ Async JS / API│
+                        └───────┬───────┘
+                                │
+                                ▼
+                        ┌───────────────┐
+                        │  TypeScript   │
+                        └───────┬───────┘
+                                │
+                                ▼
+                        ┌───────────────┐
+                        │     React     │
+                        └───────┬───────┘
+                                │
+                                ▼
+                        ┌───────────────┐
+                        │    Next.js    │
+                        └───────┬───────┘
+                                │
+                                ▼
+                        ┌───────────────┐
+                        │  Full Stack   │
+                        │  Development  │
+                        └───────────────┘
+```
+
+---
+
+# `10` — Development Workflow
+
+The repository follows a simple development cycle:
+
+```text
+       ┌───────────┐
+       │   Learn   │
+       └─────┬─────┘
+             ↓
+       ┌───────────┐
+       │   Build   │
+       └─────┬─────┘
+             ↓
+       ┌───────────┐
+       │ Experiment│
+       └─────┬─────┘
+             ↓
+       ┌───────────┐
+       │   Debug   │
+       └─────┬─────┘
+             ↓
+       ┌───────────┐
+       │ Refactor  │
+       └─────┬─────┘
+             ↓
+       ┌───────────┐
+       │   Build   │
+       │  Project  │
+       └───────────┘
+```
+
+This keeps the repository focused on **understanding and implementation**, rather than simply collecting code snippets.
+
+---
+
+# `11` — Tools
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white"/>
+<img src="https://img.shields.io/badge/Chrome-4285F4?style=flat-square&logo=google-chrome&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
+
+</div>
+
+### Primary Development Environment
+
+- **Visual Studio Code** — Development
+- **Browser DevTools** — Debugging & inspection
+- **Git** — Version control
+- **GitHub** — Source control & collaboration
+
+---
+
+# `12` — Getting Started
+
+### Clone
+
+```bash
+git clone https://github.com/nishanty23/web-development-technologies.git
+```
+
+### Enter the repository
 
 ```bash
 cd web-development-technologies
 ```
 
-### 3. Run an example
+### Run an example
 
 For basic HTML/CSS/JavaScript examples, open the corresponding `.html` file in a browser.
 
-For projects using a local development server, follow the instructions provided inside that project's directory.
+For projects requiring a development server, refer to the project's individual README or setup instructions.
 
 ---
 
-## 🧪 Learning Approach
+# `13` — Goals
 
-This repository follows a practical progression:
+This repository aims to build a strong foundation for developing modern web applications.
+
+### Primary Goals
+
+- Understand web fundamentals
+- Write clean and maintainable frontend code
+- Build responsive interfaces
+- Understand JavaScript beyond syntax
+- Learn DOM-based application development
+- Work with browser APIs
+- Consume external APIs
+- Build practical projects
+- Develop a foundation for modern frontend frameworks
+- Maintain a reusable technical reference
+
+---
+
+# `14` — Beyond the Fundamentals
+
+Once the core technologies are understood, the natural progression is toward the broader web-development ecosystem.
 
 ```text
 HTML
-  ↓
-Page Structure
-  ↓
+ +
 CSS
-  ↓
-Layout & Design
-  ↓
+ +
 JavaScript
-  ↓
-Logic & Interactivity
-  ↓
-DOM
-  ↓
-Dynamic Interfaces
-  ↓
-APIs & Asynchronous JavaScript
-  ↓
-Projects
+       │
+       ▼
+ TypeScript
+       │
+       ▼
+    React
+       │
+       ▼
+   Next.js
+       │
+       ├───────────────┐
+       ▼               ▼
+ REST APIs          Backend
+                       │
+                 ┌─────┴─────┐
+                 ▼           ▼
+              Node.js    Databases
+                 │
+                 ▼
+            Full-Stack Apps
 ```
 
-The goal is not simply to memorize syntax, but to understand **how individual web technologies work together to create functional applications.**
+The objective is to understand the **foundation first**, then introduce abstractions and frameworks when they solve real development problems.
 
 ---
 
-## 🛠️ Development Philosophy
-
-The examples in this repository are intended to follow a few principles:
-
-| Principle | Approach |
-|:---|:---|
-| **Clarity** | Keep implementations understandable and readable |
-| **Fundamentals** | Understand the underlying concept before relying on abstractions |
-| **Practicality** | Prefer examples that demonstrate real usage |
-| **Experimentation** | Modify examples and observe the results |
-| **Progressive Learning** | Move from fundamentals toward more advanced concepts |
-| **Maintainability** | Keep files and examples organized by topic |
-
----
-
-## 💡 Projects
-
-As the repository evolves, individual concepts will be combined into small projects that demonstrate how HTML, CSS, and JavaScript work together.
-
-Potential project areas include:
-
-- 📝 Interactive forms
-- 🎨 Responsive landing pages
-- 🧮 Utility applications
-- 🛒 Product interfaces
-- 📋 Task management applications
-- 🔍 Search interfaces
-- 🌦️ API-based applications
-- 🎮 Browser-based mini applications
-- 📊 Interactive dashboards
-
----
-
-## 📈 Learning Progress
-
-<details>
-<summary><b>HTML</b></summary>
-
-- [x] Basic document structure
-- [x] Elements and attributes
-- [x] Links and images
-- [x] Lists and tables
-- [x] Forms
-- [x] Semantic HTML
-- [ ] Advanced accessibility
-- [ ] Advanced HTML APIs
-
-</details>
-
-<details>
-<summary><b>CSS</b></summary>
-
-- [x] Selectors
-- [x] Box Model
-- [x] Positioning
-- [x] Flexbox
-- [x] Grid
-- [x] Responsive Design
-- [ ] Advanced animations
-- [ ] Advanced layout patterns
-
-</details>
-
-<details>
-<summary><b>JavaScript</b></summary>
-
-- [x] Variables and data types
-- [x] Operators
-- [x] Conditions
-- [x] Loops
-- [x] Functions
-- [x] Arrays
-- [x] Objects
-- [x] DOM manipulation
-- [x] Events
-- [ ] Advanced asynchronous JavaScript
-- [ ] Modules
-- [ ] Advanced browser APIs
-
-</details>
-
----
-
-## 🔗 Web Development Ecosystem
-
-The core technologies in this repository form the foundation for larger web-development ecosystems:
-
-```text
-                    WEB DEVELOPMENT
-                          │
-            ┌─────────────┴─────────────┐
-            │                           │
-          FRONTEND                   BACKEND
-            │                           │
-     ┌──────┼──────┐              ┌─────┼─────┐
-     │      │      │              │     │     │
-    HTML   CSS   JavaScript      APIs  DBs  Servers
-     │      │      │
-     └──────┼──────┘
-            │
-       Web Browser
-            │
-     Interactive UI
-```
-
-These fundamentals provide the foundation for progressing toward technologies such as:
-
-- React
-- Next.js
-- Node.js
-- Express
-- TypeScript
-- REST APIs
-- Databases
-- Full-stack applications
-
----
-
-## 🧰 Tools
-
-The repository can be worked with using common web-development tools:
-
-- **Visual Studio Code**
-- **Google Chrome / Chromium-based browsers**
-- **Git**
-- **GitHub**
-- Browser Developer Tools
-
----
-
-## 🎯 Objectives
-
-The primary objectives of this repository are to:
-
-- Build a strong foundation in web development
-- Understand how HTML, CSS, and JavaScript interact
-- Practice writing clean and maintainable code
-- Develop responsive user interfaces
-- Understand DOM-based web applications
-- Experiment with browser APIs
-- Build progressively more complex projects
-- Create a reusable reference for future development
-
----
-
-## 📌 Future Scope
-
-The repository will gradually expand beyond the fundamentals into more advanced areas of web development.
-
-```text
-HTML + CSS + JavaScript
-          ↓
-      DOM & APIs
-          ↓
-     Responsive UI
-          ↓
-    JavaScript ES6+
-          ↓
-   Async Programming
-          ↓
-      TypeScript
-          ↓
-       React
-          ↓
-      Next.js
-          ↓
-    Full-Stack Web Apps
-```
-
----
-
-## 👨‍💻 Author
+# `15` — Author
 
 <div align="center">
 
-### Nishant Yadav
+## Nishant Yadav
 
-**B.Tech CSE | Software Developer**
+**Software Developer • B.Tech CSE**
 
-Building, learning, and experimenting with software development.
+Interested in building practical software systems and continuously improving engineering fundamentals.
 
 <br>
 
 <a href="https://github.com/nishanty23">
-  <img src="https://img.shields.io/badge/GitHub-nishanty23-181717?style=for-the-badge&logo=github" alt="GitHub">
+<img src="https://img.shields.io/badge/GitHub-nishanty23-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
-&nbsp;
+
 <a href="https://www.linkedin.com/in/nishant-yadav-/">
-  <img src="https://img.shields.io/badge/LinkedIn-Nishant%20Yadav-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+<img src="https://img.shields.io/badge/LinkedIn-Nishant%20Yadav-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 
 </div>
@@ -440,8 +530,12 @@ Building, learning, and experimenting with software development.
 
 <div align="center">
 
-### 🌐 Learn the fundamentals. Build the interface. Make the web interactive.
+### `BUILD → BREAK → DEBUG → UNDERSTAND → BUILD BETTER`
 
-**Made with HTML • CSS • JavaScript • Curiosity**
+<br>
+
+**Web Development Technologies**
+
+*Learning the web from its foundations to full-stack development.*
 
 </div>
