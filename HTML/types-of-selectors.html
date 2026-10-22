@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Selectors</title>
+
+    <style>
+
+        /* Universal */
+        * {
+            font-family: Arial;
+        }
+
+        /* Tag */
+        p {
+            font-size: 18px;
+        }
+
+        /* ID */
+        #heading {
+            color: blue;
+        }
+
+        /* Class */
+        .important {
+            font-weight: bold;
+        }
+
+        /* Descendant */
+        div p {
+            color: green;
+        }
+
+        /* Direct child */
+        div > h2 {
+            color: purple;
+        }
+
+        /* Attribute */
+        input[type="text"] {
+            border: 2px solid blue;
+        }
+
+        /* Pseudo-class */
+        button:hover {
+            background-color: yellow;
+        }
+
+        /* Pseudo-element */
+        p::first-letter {
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1 id="heading">CSS Selectors</h1>
+
+    <div>
+
+        <h2>Introduction</h2>
+
+        <p class="important">
+            CSS is used to style HTML pages.
+        </p>
+
+        <p>
+            Selectors decide which elements will be styled.
+        </p>
+
+    </div>
+
+    <input type="text" placeholder="Enter your name">
+
+    <br><br>
+
+    <button>Submit</button>
+
+</body>
+</html>
