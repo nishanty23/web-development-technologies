@@ -40,7 +40,7 @@ Rather than treating web development as a collection of isolated syntaxes, the g
 │                       WEB APPLICATION                        │
 ├──────────────────────────────────────────────────────────────┤
 │                                                              │
-│    HTML              CSS                 JavaScript           │
+│    HTML              CSS                 JavaScript          │
 │     │                 │                      │               │
 │     ▼                 ▼                      ▼               │
 │  Structure          Design               Behaviour           │
