@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login-style.css">
+</head>
+
+<body>
+
+    <div id="login-container">
+
+        <h1 id="login-heading">Welcome Back</h1>
+        <p id="login-subtitle">Login to your account</p>
+        
+        <form>
+       
+            <div class="form-input">
+                <label for="username">Username</label>
+                <input
+                    type="text"
+                    id="username"
+                    name="username"
+                    placeholder="Enter your username"
+                    autocomplete="username"
+                    required
+                >
+            </div>
+
+            <div class="form-input">
+                <label for="password">Password</label>
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Enter your password"
+                    autocomplete="current-password"
+                    required
+                >
+            </div>
+
+            <div id="login-button">
+                <button type="submit">Login</button>
+            </div>
+
+        </form>
+
+        <p id="signup-text">
+            Don't have an account?
+            <a id="signup-link" href="signup-form.html">Sign Up</a>
+        </p>
+
+    </div>
+
+</body>
+</html>
