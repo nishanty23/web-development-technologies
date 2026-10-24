@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nishant Yadav | Contact</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="main-header">
+
+        <div class="logo-section">
+
+            <img src="images/profile.jpg"
+                 alt="Nishant Yadav"
+                 class="logo-image">
+
+            <span class="site-name">Nishant Yadav</span>
+
+        </div>
+
+
+        <nav id="main-nav">
+
+            <a href="index.html">Home</a>
+
+            <a href="projects.html">Projects</a>
+
+            <a href="contact.html">Contact</a>
+
+            <a href="https://github.com/nishanty23"
+               target="_blank">
+                GitHub
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main class="page-content">
+
+        <h1>Contact Me</h1>
+
+        <p>
+            If you would like to get in touch, fill out the form below.
+        </p>
+
+
+        <!-- Contact Form -->
+        <!-- POST is used because the form contains personal information
+             and a file upload. -->
+
+        <form
+            id="contact-form"
+            action="https://example.com/contact"
+            method="post"
+            enctype="multipart/form-data"
+        >
+
+            <div class="form-container">
+
+
+                <!-- Name -->
+                <div class="form-group">
+
+                    <label for="name">
+                        Full Name:
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your full name"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- Email -->
+                <div class="form-group">
+
+                    <label for="email">
+                        Email:
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email address"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- Date -->
+                <div class="form-group">
+
+                    <label for="contact-date">
+                        Preferred Contact Date:
+                    </label>
+
+                    <input
+                        type="date"
+                        id="contact-date"
+                        name="contact-date"
+                    >
+
+                </div>
+
+
+                <!-- Enquiry Type -->
+                <div class="form-group">
+
+                    <label for="enquiry-type">
+                        Enquiry Type:
+                    </label>
+
+                    <select
+                        id="enquiry-type"
+                        name="enquiry-type"
+                    >
+
+                        <option value="">
+                            Select an option
+                        </option>
+
+                        <option value="job">
+                            Job Opportunity
+                        </option>
+
+                        <option value="project">
+                            Project Discussion
+                        </option>
+
+                        <option value="general">
+                            General Enquiry
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- Preferred Contact Mode -->
+                <div class="form-group">
+
+                    <label>
+                        Preferred Contact Mode:
+                    </label>
+
+                    <input
+                        type="radio"
+                        id="contact-email"
+                        name="contact-mode"
+                        value="email"
+                        checked
+                    >
+
+                    <label for="contact-email">
+                        Email
+                    </label>
+
+
+                    <input
+                        type="radio"
+                        id="contact-phone"
+                        name="contact-mode"
+                        value="phone"
+                    >
+
+                    <label for="contact-phone">
+                        Phone
+                    </label>
+
+                </div>
+
+
+                <!-- Message -->
+                <div class="form-group">
+
+                    <label for="message">
+                        Message:
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Write your message here..."
+                    ></textarea>
+
+                </div>
+
+
+                <!-- CV Upload -->
+                <div class="form-group">
+
+                    <label for="cv">
+                        Upload CV:
+                    </label>
+
+                    <input
+                        type="file"
+                        id="cv"
+                        name="cv"
+                        accept=".pdf,.doc,.docx"
+                    >
+
+                </div>
+
+
+                <!-- Consent -->
+                <div class="form-group">
+
+                    <input
+                        type="checkbox"
+                        id="consent"
+                        name="consent"
+                        required
+                    >
+
+                    <label for="consent">
+                        I agree to be contacted regarding my enquiry.
+                    </label>
+
+                </div>
+
+
+                <!-- Buttons -->
+                <div class="form-buttons">
+
+                    <button type="submit">
+                        Submit
+                    </button>
+
+                    <button type="reset">
+                        Reset
+                    </button>
+
+                </div>
+
+            </div>
+
+        </form>
+
+
+        <!-- Inline CSS is used here for a one-time small adjustment
+             specific to this heading. -->
+
+        <h2 style="text-align: center;">
+            My Location
+        </h2>
+
+
+        <!-- Map -->
+        <div class="map-container">
+
+            <iframe
+                id="college-map"
+                src="https://www.google.com/maps?q=CDAC+Kharghar&output=embed"
+                width="600"
+                height="400"
+                title="CDAC Kharghar Map"
+                loading="lazy">
+            </iframe>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            &copy; 2026 Nishant Yadav. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- later: JavaScript form validation can be added here -->
+
+</body>
+
+</html>
